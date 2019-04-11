@@ -37,7 +37,7 @@ public class AddforceSwing : MonoBehaviour {
         // direction = direction.normalized * 1000;
         //direction = Vector3.Cross(direction, Yforce);
         Vector3 Yforce = new Vector3(0f,1.0f,0f);
-        Yforce = Yforce.normalized *34;
+        Yforce = Yforce.normalized *104;
         
         collision.gameObject.GetComponent<Rigidbody>().AddForce(Yforce); //잘안날라가서 넣어줌
         collision.gameObject.GetComponent<Rigidbody>().useGravity = true;
