@@ -25,6 +25,6 @@ public class ProgressBar_ : MonoBehaviour {
 	void Update () {
 
 		enemyValue = currentAmount / enemiesAmount;
-		sliderScript.value = enemyValue;
+		sliderScript.value = 1 - enemyValue;
 	}
 }
