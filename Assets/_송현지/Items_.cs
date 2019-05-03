@@ -95,7 +95,6 @@ public class Items_ : MonoBehaviour {
 			if (emptyC) // inventory A, B에만 item
 			{
 				emptyB = true;
-				spriteA.sprite = spriteB.sprite;
 				spriteB.sprite = null;
 			}
 			else    // inventory A, B, C에 item
@@ -108,6 +107,7 @@ public class Items_ : MonoBehaviour {
 		else if(invenName == InventoryItem.inventoryEnum.InvenC && !emptyC)
 		{
 			weaponImg.sprite = spriteC.sprite;
+
 			emptyC = true;
 			spriteC.sprite = null;
 		}
