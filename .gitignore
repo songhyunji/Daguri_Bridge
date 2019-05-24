@@ -34,3 +34,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Setting Assets by_lee
+1_Data/
+Assets/
+ProjectSettings/
+*.unity
